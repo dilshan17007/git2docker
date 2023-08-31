@@ -12,7 +12,7 @@ func Hello(name string) (string, error) {
 	if name == "" {
 		return "", errors.New("empty name")
 	}
-	message := fmt.Sprintf("Hi, %v. Welcome!", name)
+	message := fmt.Sprintf("Hi, %v. Welcome to all i am CT/2017/058", name)
 	return message, nil
 }
 
